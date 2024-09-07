@@ -18,5 +18,8 @@
   "homepage": "https://github.com/bayudani/sistem-peminjaman-lab#readme",
   "devDependencies": {
     "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "peminjamanlab": "file:"
   }
 }
