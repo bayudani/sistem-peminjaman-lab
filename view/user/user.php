@@ -205,7 +205,11 @@
                                     Us</a></li>
                             <li class="md:ml-6 mt-3 md:mt-0">
                                 <a class="inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:bg-transparent md:text-white border border-white rounded"
+<<<<<<< HEAD
                                     href="view/user/lab.php">Book
+=======
+                                    href="login">Book
+>>>>>>> 6f6e1f9bf02b2a207203cb7a373ae4ef44e20c6b
                                     Appointment</a>
                             </li>
                         </ul>
