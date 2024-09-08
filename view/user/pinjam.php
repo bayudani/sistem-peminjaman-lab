@@ -9,17 +9,17 @@
 <body class="bg-gray-100">
 
     <!-- Header Section -->
-    <header class="bg-gray-900 text-white">
+    <header class="bg-green-400 text-white">
         <div class="container mx-auto flex justify-between items-center py-4 px-4">
             <!-- Logo Placeholder -->
          
             <!-- Navigation Menu -->
             <nav class="space-x-4">
-                <a href="#" class="text-gray-300 hover:text-white">Home</a>
-                <a href="#" class="text-gray-300 hover:text-white">Lab</a>
+                <a href="#" class="text-gray-400 hover:text-white">Home</a>
+                <a href="#" class="text-gray-400 hover:text-white">Lab</a>
             </nav>
             <!-- Login Button -->
-            <a href="#" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Login</a>
+            <a href="#" class="bg-gray-600 text-white px-4 py-2 rounded hover:bg-black-700">Login</a>
         </div>
     </header>
 
