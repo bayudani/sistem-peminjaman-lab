@@ -12,10 +12,12 @@
     # Aturan untuk menangani request ke halaman lainnya (login, register, dll.)
     RewriteRule ^login$ index.php?action=login [QSA,L]
     RewriteRule ^register$ index.php?action=register [QSA,L]
-    RewriteRule ^transaksi$ index.php?action=prosesTransaksi [QSA,L]
+    RewriteRule ^daftarlab$ index.php?action=daftarlab [QSA,L]
+    RewriteRule ^lab$ index.php?action=lab [QSA,L]
+    RewriteRule ^laboran$ index.php?action=laboran [QSA,L]
     RewriteRule ^admin$ index.php?action=admin [QSA,L]
-    RewriteRule ^artikel$ index.php?action=artikel [QSA,L]
-    RewriteRule ^profile$ index.php?action=profile [QSA,L]
+    RewriteRule ^logout$ index.php?action=logout [QSA,L]
+    # RewriteRule ^profile$ index.php?action=profile [QSA,L]
 
     # Hilangkan .php dari file lainnya
     RewriteCond %{REQUEST_FILENAME} !-f
