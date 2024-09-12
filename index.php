@@ -23,8 +23,9 @@ switch ($action){
         }
         include './view/register.php';
         break;
-    case 'logout':
+    case 'labtes':
         // $controller->logout();
+        include './view/user/labtes.php';
         break;
     default:
         include './view/user/user.php';
