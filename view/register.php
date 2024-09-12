@@ -25,7 +25,7 @@
     <div class="font-[sans-serif]">
         <div class="min-h-screen flex fle-col items-center justify-center p-6">
             <div class="grid lg:grid-cols-2 items-center gap-6 max-w-7xl max-lg:max-w-xl w-full">
-                <form class="lg:max-w-md w-full" action="index.php?action=login" method="post">
+                <form class="lg:max-w-md w-full" action="index.php?action=register" method="post">
                     <h3 class="text-gray-800 text-3xl font-extrabold mb-12">Registration</h3>
                     <div class="space-y-6">
                         <div>

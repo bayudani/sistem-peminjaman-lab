@@ -8,9 +8,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="src/output.css">
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <title>DentalPro</title>
 
+=======
+
+  <title>Laboratorium</title>
+
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
   <style>
     #menu-toggle:checked+#menu {
       display: block;
@@ -93,6 +99,7 @@
   <main class="w-full">
 
     <!-- start header -->
+<<<<<<< HEAD
     <header class="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
       <div class="hidden md:flex justify-between items-center py-2 border-b text-sm py-3"
         style="border-color: rgba(255,255,255,.25)">
@@ -207,6 +214,11 @@
         </div>
       </div>
     </header>
+=======
+    <?php
+    include 'view/layout/header.php';
+    ?>
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
     <!-- end header -->
 
     <!-- start hero -->
@@ -249,7 +261,11 @@
         <div class="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-0">
           <div class="md:flex">
             <div>
+<<<<<<< HEAD
               <!-- <div class="w-16 h-16 bg-blue-600 rounded-full"></div> -->
+=======
+              <div class="w-16 h-16 bg-blue-600 rounded-full"></div>
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
             </div>
             <div class="md:ml-8 mt-4 md:mt-0">
               <h4 class="text-xl font-bold leading-tight">Fsilitas Unggulan</h4>
@@ -551,7 +567,12 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
         </li>
       </ul>
 
+<<<<<<< HEAD
       <a href="#" class="px-4 py-2 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Detile Lab
+=======
+      <!-- Tombol Cek Lab -->
+      <a href="" class="px-4 py-2 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Detile Lab
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
         </a>
     </div>
     
@@ -710,7 +731,16 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
   </div>
 </section> -->
 <!-- end testimonials 4 -->
+<<<<<<< HEAD
  
+=======
+ <br>
+ <br>
+<div class="text-center">
+    <a class="inline-block font-semibold px-4 py-2 text-black bg-blue-600  md:bg-transparent md:text-black border border-green rounded"
+       href="daftarlab">Lihat Semua Lab</a>
+</div>
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
 
    <br>
 
@@ -1052,6 +1082,13 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
       
   </main>
 
+<<<<<<< HEAD
+=======
+        
+
+  </main>
+
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
   <?php 
 
     include 'view/layout/footer.php';
@@ -1071,5 +1108,4 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
   </script>
 
 </body>
-
 </html>
