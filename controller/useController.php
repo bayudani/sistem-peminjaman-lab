@@ -37,6 +37,32 @@ class userController
             exit();
         }
     }
+    public function registerLaboran($nim, $username, $password, $repeat_password)
+    {
+        if ($this->userModel->isNimRegistered($nim)) {
+            $_SESSION['gagal'] = 'NIM sudah terdaftar';
+            header("location:register");
+            exit();
+        }
+
+        if ($password === $repeat_password) {
+            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+            if ($this->userModel->registerLaboran($nim, $username, $hashed_password)) {
+                $_SESSION['berhasil'] = "Akun anda telah terdaftar";
+                $_SESSION['nim'] = $nim;
+                header("location:laboran");
+                exit();
+            } else {
+                $_SESSION['gagal'] = "Gagal mendaftarkan akun";
+                header("location:laboran");
+                exit();
+            }
+        } else {
+            $_SESSION['gagal'] = "Passwordharus sama";
+            header("location:register");
+            exit();
+        }
+    }
 
     public function login($username, $password)
     {
@@ -51,7 +77,7 @@ class userController
 
             // Redirect based on user role
             if ($user['role'] === 'laboran' || $user['role'] === 'admin') {
-                header("Location: index.php?action=admin");
+                header("Location:admin");
             } else {
                 header("Location:/peminjamanLab"); // Redirect user to index.php
             }
@@ -61,5 +87,17 @@ class userController
             header("Location:login");
             exit();
         }
+    }
+    public function getAllUser() {
+        return $this->userModel->getAllUser();
+    }
+    public function getAllLaboran() {
+        return $this->userModel->getAllLaboran();
+    }
+    public function getUserCount() {
+        return $this->userModel->countuser();
+    }
+    public function getLaboranCount() {
+        return $this->userModel->countLaboran();
     }
 }

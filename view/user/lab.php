@@ -23,10 +23,10 @@
         <div class="flex items-center gap-5">
             <ul class="flex gap-x-5">
                 <li>
-                    <a href="javascript:void(0)" class="text-white block font-sens-sarif font-semibold text-[20px]">Home</a>
+                    <a href="javascript:void(0)" class="text-white block font-sens-sarif font-semibold text-[20px] hover:underline">Home</a>
                 </li>
                 <li>
-                    <a href="javascript:void(0)" class="text-white block font-sens-sarif font-semibold text-[20px]">Daftar Sekarang</a>
+                    <a href="javascript:void(0)" class="text-white block font-sens-sarif font-semibold text-[20px] hover:underline">Daftar Sekarang</a>
                 </li>
             </ul>
 
@@ -43,125 +43,134 @@
 
 
     <!-- Main Content -->
-    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
-        
-    <!-- Lab 1 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="../../src/images/lab.jpeg" class="w-full h-40 object-cover" alt="Lab">
-            <div class="p-4">
-                <h2 class="custom-blue-text text-lg font-bold mb-2">Sistem Informasi dan Basis Data</h2>
-                <p class="text-gray-600 mb-4">Lab digunakan untuk Praktikum Basis Data, Perancangan Basis Data, Teori Konsep Pemograman, dll.</p>
+     
+    <div class="bg-gray-100 md:px-10 px-4 py-12 font-[sans-serif]">
+      <div class="max-w-5xl max-lg:max-w-3xl max-sm:max-w-sm mx-auto"> 
+       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-sm:gap-8">
+           <!-- Lab 1 -->
+            <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab.jpeg" alt="Blog Post 1" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">Sistem Informasi dan Basis Data</h2>
+                <p class="text-gray-500 text-sm">Lab digunakan untuk Praktikum Basis Data, Perancangan Basis Data, Teori Konsep Pemograman, dll.</p><br>
                 <p><strong>Nama Laboran:</strong> Adelia Fitriyani A.Md</p>
                 <div class="flex items-center justify-between mt-4">
-                  <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
+                  <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-green-300">Pinjam Sekarang</a>
                 </div>
             </div>
-        </div>
-
-        <!-- Lab 2 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="../../src/images/lab pemrog.jpg" class="w-full h-40 object-cover" alt="Lab">
-            <div class="p-4">
-                <h2 class="custom-blue-text text-lg font-bold mb-2">Pemrograman</h2>
-                <p class="text-gray-600 mb-4">Lab Pemrograman, digunakan untuk praktikum : Pemograman Berorientasi Objek (PBO), Struktur Data, Pelatihan Java Fundamental (Oracle Academy) tugas akhir (TA), dan pengabdian masyarakat.</p>
+          </div>
+          <!-- lab 2 -->
+          <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab pemrog.jpg" alt="Blog Post 2" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">Pemrograman</h2>
+                <p class="text-gray-500 text-sm">Lab Pemrograman, digunakan untuk praktikum : Pemograman Berorientasi Objek (PBO), Struktur Data, Pelatihan Java Fundamental (Oracle Academy) tugas akhir (TA), dan pengabdian masyarakat.</p>
                 <p><strong>Nama Laboran:</strong> Wiwin Saputra, A.Md</p>
                 <div class="flex items-center justify-between mt-4">
                 <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
                 </div>
-            </div>
-        </div>
-
-        <!-- Lab 3 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="../../src/images/lab multimedia.jpg" class="w-full h-40 object-cover" alt="Lab">
-            <div class="p-4">
-                <h2 class="custom-blue-text text-lg font-bold mb-2">Multimedia</h2>
-                <p class="text-gray-600 mb-4">Lab Pembelajaran Multimedia, digunakan untuk Praktikum: Animasi Multimedia, Desain Grafis, Video Editing, MYOB, tugas akhir (TA), dan pengabdian masyarakat.</p>
+          </div>
+          </div>
+            <!-- Lab 3 -->
+          <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab multimedia.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">Multimedia</h2>
+                <p class="text-gray-600 text-sm">Lab Pembelajaran Multimedia, digunakan untuk Praktikum: Animasi Multimedia, Desain Grafis, Video Editing, MYOB, tugas akhir (TA), dan pengabdian masyarakat.</p>
                 <p><strong>Nama Laboran:</strong> Supendi, A.Md</p>
                 <div class="flex items-center justify-between mt-4">
                 <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
                 </div>
             </div>
-        </div>
-
-        <!-- Lab 4 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="../../src/images/lab jarkom.jpg" class="w-full h-40 object-cover" alt="Lab">
-            <div class="p-4">
-                <h2 class="custom-blue-text text-lg font-bold mb-2">Jaringan Komputer dan Informasi</h2>
-                <p class="text-gray-600 mb-4">Lab Jaringan Komputer dan Informasi, digunakan untuk praktikum: Sistem Operasi, Konsep Jaringan, Administrasi Jaringan, Pelatihan Cisco Local Academy, tugas akhir (TA), dan pengabdian masyarakat.</p>
+          </div>
+           <!-- Lab 4 -->
+          <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab jarkom.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">Jaringan Komputer dan Informasi</h2>
+                <p class="text-gray-600 text-sm">Lab Jaringan Komputer dan Informasi, digunakan untuk praktikum: Sistem Operasi, Konsep Jaringan, Administrasi Jaringan, Pelatihan Cisco Local Academy, tugas akhir (TA), dan pengabdian masyarakat.</p>
                 <p><strong>Nama Laboran:</strong> Dedi Hermawan A.Md</p>
                 <div class="flex items-center justify-between mt-4">
                 <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
                 </div>
             </div>
-        </div>
-
-        <!-- Lab 5 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="../../src/images/lab ai.jpg" class="w-full h-40 object-cover" alt="Lab">
-            <div class="p-4">
-                <h2 class="custom-blue-text text-lg font-bold mb-2">Artificial Intelligence</h2>
-                <p class="text-gray-600 mb-4">Lab Artificial Intelligence, digunakan untuk Praktikum: Pemrograman, Desain Web, Web Programming, tugas akhir (TA), dan pengabdian masyarakat.</p>
+          </div>
+          <!-- Lab 5 -->
+          <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab ai.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">Artificial Intelligence</h2>
+                <p class="text-gray-600 text-sm">Lab Artificial Intelligence, digunakan untuk Praktikum: Pemrograman, Desain Web, Web Programming, tugas akhir (TA), dan pengabdian masyarakat.</p>
                 <p><strong>Nama Laboran:</strong> Isna Yulia, A.Md</p>
                 <div class="flex items-center justify-between mt-4">
                 <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
                 </div>
             </div>
-        </div>
-
-        <!-- Lab 6 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="../../src/images/lab sofdev.jpg" class="w-full h-40 object-cover" alt="Lab">
-            <div class="p-4">
-                <h2 class="custom-blue-text text-lg font-bold mb-2">Software Development</h2>
-                <p class="text-gray-600 mb-4">Lab Software Development, digunakan untuk Praktikum: Pemrograman, Desain Web, Web Programming, tugas akhir (TA), dan pengabdian masyarakat.</p>
+          </div>
+          <!-- Lab 6 -->
+          <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab sofdev.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">Software Development</h2>
+                <p class="text-gray-600 text-sm">Lab Software Development, digunakan untuk Praktikum: Pemrograman, Desain Web, Web Programming, tugas akhir (TA), dan pengabdian masyarakat.</p>
                 <p><strong>Nama Laboran:</strong> Nurhimaddin, A.Md</p>
                 <div class="flex items-center justify-between mt-4">
                 <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
                 </div>
+                </div>
             </div>
-        </div>
-
-        <!-- Lab 7 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="../../src/images/lab iot.jpg" class="w-full h-40 object-cover" alt="Lab">
-            <div class="p-4">
-                <h2 class="custom-blue-text text-lg font-bold mb-2">Internet of Things (IoT)</h2>
-                <p class="text-gray-600 mb-4">Lab IoT digunakan untuk Praktikum: Dasar Jaringan, Pekerjaan tugas mata kuliah, Tugas Akhir (TA), dan pengabdian masyarakat.</p>
+          <!-- Lab 7 -->
+          <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab iot.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">Internet of Things (IoT)</h2>
+                <p class="text-gray-600 text-sm">Lab IoT digunakan untuk Praktikum: Dasar Jaringan, Pekerjaan tugas mata kuliah, Tugas Akhir (TA), dan pengabdian masyarakat.</p>
                 <p><strong>Nama Laboran:</strong> Khairus Suhada, A.Md</p>
                 <div class="flex items-center justify-between mt-4">
                 <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
                 </div>
+                </div>
             </div>
-        </div>
-
-        <!-- Lab 8 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="../../src/images/lab ksi.jpg" class="w-full h-40 object-cover" alt="Lab">
-            <div class="p-4">
-                <h2 class="custom-blue-text text-lg font-bold mb-2">Kemanan Informasi</h2>
-                <p class="text-gray-600 mb-4">Lab. Keamanan informasi, digunakan untuk praktikum : Pemrograman I, Pemrograman Web II, Teknologi Web XML dan Web Service, Pekerjaan tugas mata kuliah, tugas akhir (TA), dan pengabdian masyarakat.</p>
+          <!-- Lab 8 -->
+          <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab ksi.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">Kemanan Informasi</h2>
+                <p class="text-gray-600 text-sm">Lab. Keamanan informasi, digunakan untuk praktikum : Pemrograman I, Pemrograman Web II, Teknologi Web XML dan Web Service, Pekerjaan tugas mata kuliah, tugas akhir (TA), dan pengabdian masyarakat.</p>
                 <p><strong>Nama Laboran:</strong> Isna Yulia, A.Md</p>
                 <div class="flex items-center justify-between mt-4">
                 <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
                 </div>
+                </div>
             </div>
-        </div>
-        <!-- Lab 9 -->
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="../../src/images/lab.jpeg" class="w-full h-40 object-cover" alt="Lab">
-            <div class="p-4">
-                <h2 class="custom-blue-text text-lg font-bold mb-2">Sofware Testing</h2>
-                <p class="text-gray-600 mb-4">Lab software testing digunakan  untuk memberikan mahasiswa pengalaman langsung dalam menguji perangkat lunak, mengasah keterampilan dalam mendeteksi dan memperbaiki bug, serta meningkatkan kualitas perangkat lunak.</p>
+          <!-- Lab 9 -->
+          <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab.jpeg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">Sofware Testing</h2>
+                <p class="text-gray-600 text-sm">Lab software testing digunakan  untuk memberikan mahasiswa pengalaman langsung dalam menguji perangkat lunak, mengasah keterampilan dalam mendeteksi dan memperbaiki bug, serta meningkatkan kualitas perangkat lunak.</p>
                 <p><strong>Nama Laboran:</strong> Isna Yulia, A.Md</p>
                 <div class="flex items-center justify-between mt-4">
                 <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
                 </div>
-                
+                </div>
             </div>
-        </div>
+          <!-- Lab 10 -->
+          <div class="bg-white rounded overflow-hidden">
+            <img src="../../src/images/lab hpc.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+            <h2 class="custom-blue-text text-lg font-bold mb-2">HPC</h2>
+                <p class="text-gray-600 text-sm">Lab HPC, digunakan untuk Praktikum: Pemrograman, Desain Web, Web Programming, tugas akhir (TA), dan pengabdian masyarakat.</p>
+                <p><strong>Nama Laboran:</strong> Nurhimaddin, A.Md</p>
+                <div class="flex items-center justify-between mt-4">
+                <a href="#" class="bg-gradient-to-r from-blue-400 to-teal-400 text-white py-2 px-4 rounded hover:bg-blue-800">Pinjam Sekarang</a>
+                </div>
+                </div>
+            </div>
 
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Footer -->

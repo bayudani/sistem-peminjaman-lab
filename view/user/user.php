@@ -8,9 +8,21 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="src/output.css">
+<<<<<<< HEAD
 
   <title>DentalPro</title>
 
+=======
+<<<<<<< HEAD
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <title>DentalPro</title>
+
+=======
+
+  <title>Laboratorium</title>
+
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
+>>>>>>> 1e4d673bfd893c0b991b14d2eab52c71111992ed
   <style>
     #menu-toggle:checked+#menu {
       display: block;
@@ -91,6 +103,7 @@
 <body class="antialiased bg-white font-sans text-gray-900">
 
   <main class="w-full">
+<<<<<<< HEAD
 
     <!-- start header -->
     <header class="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
@@ -106,6 +119,26 @@
                 </svg>
 
                 <span class="ml-2">POLITEKNIK NEGERI BENGKALIS</span>
+=======
+
+    <!-- start header -->
+<<<<<<< HEAD
+    <header class="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
+      <div class="hidden md:flex justify-between items-center py-2 border-b text-sm py-3"
+        style="border-color: rgba(255,255,255,.25)">
+        <div class="">
+          <ul class="flex text-white">
+            <li>
+              <div class="flex items-center">
+              <img src="src/images/logo.png" alt="Logo" class="w-30 h-20">
+
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current text-white" viewBox="0 0 24 24">
+                  <path
+                    d="M12,2C7.589,2,4,5.589,4,9.995C3.971,16.44,11.696,21.784,12,22c0,0,8.029-5.56,8-12C20,5.589,16.411,2,12,2z M12,14 c-2.21,0-4-1.79-4-4s1.79-4,4-4s4,1.79,4,4S14.21,14,12,14z" />
+                </svg> -->
+
+                <span class="ml-2 text-white font-bold italic font-serif text-2xl ">Teknik Informatika</span>
+>>>>>>> 1e4d673bfd893c0b991b14d2eab52c71111992ed
               </div>
             </li>
             <li class="ml-6">
@@ -205,6 +238,11 @@
         </div>
       </div>
     </header>
+=======
+    <?php
+    include 'view/layout/header.php';
+    ?>
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
     <!-- end header -->
 
     <!-- start hero -->
@@ -218,7 +256,7 @@
 
         <div class="lg:w-3/4 xl:w-2/4 relative z-10 h-100 lg:mt-16">
           <div>
-            <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">Sistem Peminjaman Laboraturium TI
+            <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-bold italic font-serif leading-tight">Sistem Peminjaman Laboraturium TI
               </h1>
             <!-- <p class="text-blue-100 text-xl md:text-2xl leading-snug mt-4">Welcome to the Dentist Office of Dr. Thomas
               Dooley,
@@ -240,13 +278,22 @@
           <h2 class="text-3xl leading-tight font-bold mt-4">Welcome to Sistem Peminjaman Laboraturium TI</h2>
           <p class="text-lg mt-4 font-semibold">Laboraturium Jurusan Teknik Informatika</p>
           <p class="mt-2 leading-relaxed">Laboratorium Jurusan Teknik Informatika merupakan pusat pengembangan dan
-             inovasi dalam bidang teknologi informasi. Kami menyediakan fasilitas lengkap dan modern untuk mendukung kegiatan praktikum, penelitian, dan pengembangan keahlian mahasiswa di berbagai bidang informatika.</p>
+             inovasi dalam bidang teknologi informasi. Kami menyediakan fasilitas lengkap dan
+              modern untuk mendukung kegiatan praktikum, penelitian, dan pengembangan keahlian mahasiswa di berbagai bidang informatika.</p>
         </div>
 
         <div class="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-0">
           <div class="md:flex">
             <div>
+<<<<<<< HEAD
               <div class="w-16 h-16 bg-blue-600 rounded-full"></div>
+=======
+<<<<<<< HEAD
+              <!-- <div class="w-16 h-16 bg-blue-600 rounded-full"></div> -->
+=======
+              <div class="w-16 h-16 bg-blue-600 rounded-full"></div>
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
+>>>>>>> 1e4d673bfd893c0b991b14d2eab52c71111992ed
             </div>
             <div class="md:ml-8 mt-4 md:mt-0">
               <h4 class="text-xl font-bold leading-tight">Fsilitas Unggulan</h4>
@@ -271,34 +318,259 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
           </div>
         </div>
       </div>
+      <br>
+      <br>
       <!-- </section> -->
+<!-- star tes -->
+<br>
+<br>
 
+
+<div class="max-w-6xl mx-auto font-[sans-serif]">
+  <h2 class="text-gray-800 sm:text-4xl text-2xl font-extrabold text-center mb-16">Tools popular</h2>
+  
+  <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12">
+    
+    <!-- Customization Feature -->
+    <div class="text-center">
+      <img src="src/images/vscode.png" alt="VSCode Logo" class="w-8 mb-5 inline-block">
+      <h3 class="text-gray-800 text-xl font-semibold mb-3">VSCode</h3>
+      <p class="text-gray-600 text-sm">Tailor our product to suit your needs.</p>
+    </div>
+
+    <!-- Security Feature -->
+    <div class="text-center">
+      <img src="src/images/xampp.png" alt="XAMPP Logo" class="w-8 mb-6 inline-block">
+      <h3 class="text-gray-800 text-xl font-semibold mb-3">Xampp</h3>
+      <p class="text-gray-600 text-sm">Your data is protected by the latest security measures.</p>
+    </div>
+
+    <!-- Support Feature -->
+    <div class="text-center">
+      <img src="src/images/laragon.png" alt="Laragon Logo" class="w-8 mb-6 inline-block">
+      <h3 class="text-gray-800 text-xl font-semibold mb-3">Laragon</h3>
+      <p class="text-gray-600 text-sm">24/7 customer support for all your inquiries.</p>
+    </div>
+
+    <!-- Performance Feature -->
+    <div class="text-center">
+      <img src="src/images/figma.png" alt="Figma Logo" class="w-8 mb-6 inline-block">
+      <h3 class="text-gray-800 text-xl font-semibold mb-3">Figma</h3>
+      <p class="text-gray-600 text-sm">Experience blazing-fast performance with our product.</p>
+    </div>
+
+    <!-- Speed Feature -->
+    <div class="text-center">
+      <img src="src/images/fl.png" alt="FL Studio Logo" class="w-8 mb-6 inline-block">
+      <h3 class="text-gray-800 text-xl font-semibold mb-3">Flutter</h3>
+      <p class="text-gray-600 text-sm">Optimized for fast and efficient workflows.</p>
+    </div>
+    
+    <div class="text-center">
+      <img src="src/images/as.png" alt="a Studio Logo" class="w-8 mb-6 inline-block">
+      <h3 class="text-gray-800 text-xl font-semibold mb-3">Android Studio</h3>
+      <p class="text-gray-600 text-sm">Optimized for fast and efficient workflows.</p>
+    </div>
+    
+  </div>
+</div>
+
+<!-- end tes -->
+ 
 
    
     <!-- end about -->
 <br>
 <br>
-  
-<section class="relative px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 py-8 lg:py-16">
+<!-- startes -->
+<div class="grid md:grid-cols-2 items-center md:gap-4 gap-8 font-[sans-serif] max-w-5xl max-md:max-w-md mx-auto">
+      <div class="max-md:order-1 max-md:text-center">
+        <h3 class="text-gray-800 md:text-3xl text-2xl md:leading-10">Lab Sistem Informasi.</h3>
+        <p class="mt-4 text-sm text-gray-600">Lab. Sistem Informasi dan Basis Data, digunakan untuk Praktikum : 
+          Basis Data, Perancangan Basis Data, Administrasi Basis Data, Teori dan Praktikum Konsep Pemogram 1,2, 
+          Pekerjaan tugas mata kuliah, tugas akhir (TA), dan pengabdian masyarakat..</p>
+        <ul class="mt-4 space-y-4">
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">pc gaming</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Ruangan AC</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Tv</span>
+        </li>
+      </ul>
+        <button type="button" class="px-5 py-2.5 mt-8 rounded text-sm outline-none tracking-wide bg-blue-600 text-white hover:bg-blue-700">Explore</button>
+      </div>
+      <div class="md:h-[470px]">
+        <img src="src/images/labiot.jpeg" class="w-72 min-h-full	 md:object-contain" />
+      </div>
+      
+    </div>
+ <!-- endtes -->
+ <div class="grid md:grid-cols-2 items-center md:gap-4 gap-8 font-[sans-serif] max-w-5xl max-md:max-w-md mx-auto">
+  <div class="md:h-[470px] max-md:order-1">
+    <img src="src/images/labjarkom.jpeg" class="w-72 min-h-full md:object-contain" />
+  </div>
+  <div class="max-md:text-center">
+    <h3 class="text-gray-800 md:text-3xl text-2xl md:leading-10">Lab Jaringan Komputer    </h3>
+    <p class="mt-4 text-sm text-gray-600">Lab. Jaringan Komputer dan Informasi, digunakan untuk praktikum : 
+      Sistem Operasi, Konsep Jaringan, Administrasi Sistem, Administrasi Jaringan, Sistem informasi manajemen, 
+      Pelatihan Cisco Local Academy, Pekerjaan tugas mata kuliah, tugas akhir (TA), 
+      komputasi berbasis jaringan, dan Pengabdian Pada Masyarakat.</p>
+    <ul class="mt-4 space-y-4">
+      <li class="flex items-center">
+        <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <span class="ml-2 text-lg">Lorem Ipsum</span>
+      </li>
+      <li class="flex items-center">
+        <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <span class="ml-2 text-lg">Lorem Ipsum</span>
+      </li>
+      <li class="flex items-center">
+        <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <span class="ml-2 text-lg">Lorem Ipsum</span>
+      </li>
+    </ul>
+    <button type="button" class="px-5 py-2.5 mt-8 rounded text-sm outline-none tracking-wide bg-blue-600 text-white hover:bg-blue-700">Explore</button>
+  </div>
+</div>
+<!-- tes3 -->
+<div class="grid md:grid-cols-2 items-center md:gap-4 gap-8 font-[sans-serif] max-w-5xl max-md:max-w-md mx-auto">
+      <div class="max-md:order-1 max-md:text-center">
+        <h3 class="text-gray-800 md:text-3xl text-2xl md:leading-10">Lab Multimedia        </h3>
+        <p class="mt-4 text-sm text-gray-600">Lab. Pembelajaran Multimedia, dapat digunakan untuk Praktikum :
+           Animasi Multimedia, Desain Grafis,Video Editing, MYOB, Pekerjaan tugas mata kuliah, 
+          tugas akhir (TA), dan pengabdian masyarakat.</p>
+        <ul class="mt-4 space-y-4">
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+      </ul>
+        <button type="button" class="px-5 py-2.5 mt-8 rounded text-sm outline-none tracking-wide bg-blue-600 text-white hover:bg-blue-700">Explore</button>
+      </div>
+      <div class="md:h-[470px]">
+        <img src="src/images/labmulti.jpeg" class="w-72 min-h-full	 md:object-contain" />
+      </div>
+      
+    </div>
+    <!-- endtes3 -->
+     <!-- tes4 -->
+     <div class="grid md:grid-cols-2 items-center md:gap-4 gap-8 font-[sans-serif] max-w-5xl max-md:max-w-md mx-auto">
+  <div class="md:h-[470px] max-md:order-1">
+    <img src="src/images/labpemrograman.jpeg" class="w-72 min-h-full md:object-contain" />
+  </div>
+  <div class="max-md:text-center">
+    <h3 class="text-gray-800 md:text-3xl text-2xl md:leading-10">Lab Pemrograman</h3>
+    <p class="mt-4 text-sm text-gray-600">Lab. Pemrograman Tingkat Lanjut, digunakan untuk praktikum : 
+      Pemograman Berorientasi Objek (PBO), Struktur Data, Pekerjaan tugas mata kuliah, 
+      Pelatihan Java Fundamental (Oracle Academy) tugas akhir (TA),
+       dan pengabdian masyarakat.</p>
+    <ul class="mt-4 space-y-4">
+      <li class="flex items-center">
+        <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <span class="ml-2 text-lg">Lorem Ipsum</span>
+      </li>
+      <li class="flex items-center">
+        <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <span class="ml-2 text-lg">Lorem Ipsum</span>
+      </li>
+      <li class="flex items-center">
+        <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <span class="ml-2 text-lg">Lorem Ipsum</span>
+      </li>
+    </ul>
+    <button type="button" class="px-5 py-2.5 mt-8 rounded text-sm outline-none tracking-wide bg-blue-600 text-white hover:bg-blue-700">Explore</button>
+  </div>
+</div>
+<br>
+<div class="text-center">
+    <a class="inline-block font-semibold px-4 py-2 text-white bg-blue-600 md:text-white border border-green rounded hover:text-white-700 transition-all duration-300 hover:bg-blue-700"
+       href="book-appointment.html">
+       Lihat Semua Lab <i class="fas fa-arrow-right ml-2"></i>
+    </a>
+</div>
+
+
+      <!-- endtes4 -->
+  <!-- star Testimonials 1 -->
+<!-- <section class="relative px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 py-8 lg:py-16">
   <div class="flex flex-col lg:flex-row lg:-mx-4">
     
-    <!-- Div gambar di sebelah kiri dengan ukuran lebih kecil -->
     <div class="w-full md:max-w-sm md:mx-auto lg:w-5/1 lg:px-4 mt-8 mt:md-0">
       <img src="src/images/lab.jpg" alt="Deskripsi gambar" class="w-72 min-h-44 rounded-lg object-cover" />
       <p class="italic text-xs mt-2 text-center">Aenean ante nisi, gravida non mattis semper.</p>
     </div>
 
-    <!-- Div teks di sebelah kanan dengan ukuran lebih kecil -->
     <div class="w-full lg:w-2/3 lg:px-4">
       <h2 class="text-2xl leading-tight font-bold mt-2">Lab Sistem Informasi</h2>
       <p class="mt-1 text-sm leading-relaxed">Lab. Sistem Informasi dan Basis Data, digunakan untuk Praktikum : Basis Data, Perancangan Basis Data, 
         Administrasi Basis Data, Teori dan Praktikum Konsep Pemogram 1,2, Pekerjaan 
         tugas mata kuliah, tugas akhir (TA), dan pengabdian masyarakat.</p>
       
-      <!-- List dengan ikon centang merah -->
       <ul class="mt-4 space-y-4">
         <li class="flex items-center">
-          <div class="bg-red-500 text-white w-6 h-6 flex items-center justify-center rounded-md">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
             </svg>
@@ -306,7 +578,7 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
           <span class="ml-2 text-lg">Lorem Ipsum</span>
         </li>
         <li class="flex items-center">
-          <div class="bg-red-500 text-white w-6 h-6 flex items-center justify-center rounded-md">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
             </svg>
@@ -314,7 +586,7 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
           <span class="ml-2 text-lg">Lorem Ipsum</span>
         </li>
         <li class="flex items-center">
-          <div class="bg-red-500 text-white w-6 h-6 flex items-center justify-center rounded-md">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
             </svg>
@@ -323,37 +595,64 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
         </li>
       </ul>
 
-      <!-- Tombol Cek Lab -->
+<<<<<<< HEAD
       <a href="#" class="px-4 py-2 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Detile Lab
+=======
+      <!-- Tombol Cek Lab -->
+      <a href="" class="px-4 py-2 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Detile Lab
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
         </a>
     </div>
     
   </div>
-</section>
+</section> -->
 
 
 
 
 
-<br>
 <br>
     <!-- end testimonials 1-->
      <!-- start testimonials 2-->
-<section class="relative px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 py-8 lg:py-16">
+<!-- <section class="relative px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 py-8 lg:py-16">
   <div class="flex flex-col lg:flex-row lg:-mx-4">
     
-    <!-- Div teks di sebelah kiri -->
     <div class="w-full lg:w-2/3 lg:px-4">
       <h2 class="text-2xl leading-tight font-bold mt-2">Lab Jaringan Komputer</h2>
       <p class="mt-1 text-sm leading-relaxed">Lab. Jaringan Komputer dan Informasi, digunakan untuk praktikum : 
         Sistem Operasi, Konsep Jaringan, Administrasi Sistem, Administrasi Jaringan, Sistem 
         informasi manajemen, Pelatihan Cisco Local Academy, Pekerjaan tugas mata kuliah,
          tugas akhir (TA), komputasi berbasis jaringan, dan Pengabdian Pada Masyarakat.</p>
+         <ul class="mt-4 space-y-4">
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+      </ul>
         <a href="#" class="px-4 py-2 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Detile Lab
         </a>
     </div>
 
-    <!-- Div gambar di sebelah kanan -->
     <div class="w-full md:max-w-sm md:mx-auto lg:w-1/3 lg:px-4 mt-8 mt:md-0">
       <img src="src/images/lab.jpg" alt="Deskripsi gambar" class="w-40 h-40 rounded-lg object-cover mx-auto" />
       <p class="italic text-xs mt-2 text-center">Aenean ante nisi, gravida non mattis semper.</p>
@@ -361,68 +660,120 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
     </div>
 
   </div>
-</section>
+</section> -->
 <br>
-<br>
+
 <!-- end testimonials 2 -->
    <!-- start testimonials3 -->
-   <section class="relative  px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 py-8 lg:py-16">
+   <!-- <section class="relative  px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 py-8 lg:py-16">
   <div class="flex flex-col lg:flex-row lg:-mx-4">
     
-    <!-- Div gambar di sebelah kiri dengan ukuran lebih kecil -->
     <div class="w-full md:max-w-sm md:mx-auto lg:w-5/1 lg:px-4 mt-8 mt:md-0">
       <img src="src/images/lab.jpg" alt="Deskripsi gambar" class="w-70 h-49 rounded-lg object-cover" />
       <p class="italic text-xs mt-2 text-center">Aenean ante nisi, gravida non mattis semper.</p>
     </div>
 
-    <!-- Div teks di sebelah kanan dengan ukuran lebih kecil -->
     <div class="w-full lg:w-2/3 lg:px-4">
       <h2 class="text-2xl leading-tight font-bold mt-2">Lab Multimedia</h2>
       <p class="mt-1 text-sm leading-relaxed">Lab. Pembelajaran Multimedia, dapat digunakan untuk Praktikum :
          Animasi Multimedia, Desain Grafis,Video Editing,
          MYOB, Pekerjaan tugas mata kuliah, tugas akhir (TA), dan pengabdian masyarakat.</p>
+         <ul class="mt-4 space-y-4">
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+      </ul>
         <a href="#" class="px-4 py-2 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Detile Lab
         </a>
     </div>
     
   </div>
-</section>
+</section> -->
 
-<br>
-<br>
     <!-- end testimonials 3-->
          <!-- start testimonials 4 -->
-<section class="relative  px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 py-8 lg:py-16">
+<!-- <section class="relative  px-2 sm:px-4 lg:px-8 xl:px-20 2xl:px-32 py-8 lg:py-16">
   <div class="flex flex-col lg:flex-row lg:-mx-4">
     
-    <!-- Div teks di sebelah kiri -->
     <div class="w-full lg:w-2/3 lg:px-4">
       <h2 class="text-2xl leading-tight font-bold mt-2">Lab Pemrograman</h2>
       <p class="mt-1 text-sm leading-relaxed">Lab. Pemrograman Tingkat Lanjut, digunakan untuk praktikum : 
         Pemograman Berorientasi Objek (PBO), Struktur Data, Pekerjaan tugas mata kuliah, Pelatihan Java Fundamental 
         (Oracle Academy) tugas akhir (TA), dan pengabdian masyarakat).</p>
+        <ul class="mt-4 space-y-4">
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+        <li class="flex items-center">
+          <div class="bg-green-500 text-white w-4 h-4 flex items-center justify-center rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 00-1.414 0L8 12.586 4.707 9.293a1 1 0 00-1.414 1.414l4 4a1 1 0 001.414 0l8-8a1 1 0 000-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+          <span class="ml-2 text-lg">Lorem Ipsum</span>
+        </li>
+      </ul>
         <a href="#" class="px-4 py-2 bg-teal-500 text-white rounded inline-block mt-8 font-semibold">Detile Lab
         </a>
     </div>
 
-    <!-- Div gambar di sebelah kanan -->
     <div class="w-full md:max-w-sm md:mx-auto lg:w-1/3 lg:px-4 mt-8 mt:md-0">
       <img src="src/images/lab.jpg" alt="Deskripsi gambar" class="w-40 h-40 rounded-lg object-cover mx-auto" />
       <p class="italic text-xs mt-2 text-center">Aenean ante nisi, gravida non mattis semper.</p>
     </div>
 
   </div>
-</section>
+</section> -->
 <!-- end testimonials 4 -->
+<<<<<<< HEAD
+ 
+=======
  <br>
  <br>
 <div class="text-center">
     <a class="inline-block font-semibold px-4 py-2 text-black bg-blue-600  md:bg-transparent md:text-black border border-green rounded"
-       href="book-appointment.html">Lihat Semua Lab</a>
+       href="daftarlab">Lihat Semua Lab</a>
 </div>
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
 
    <br>
-   <br>
+
+  
+
 
     <!-- start cta -->
     <section
@@ -440,6 +791,164 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
     </section>
     <!-- end cta -->
      <br>
+     <br>
+     <br>
+     <!-- star tes2 -->
+     <div class="font-[sans-serif]">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-gray-800 text-4xl font-extrabold">Laboran Ti</h2>
+                <p class="text-gray-800 text-sm mt-4 leading-relaxed">Meet our team of professionals to serve you.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 text-center mt-16 max-w-5xl max-lg:max-w-3xl max-md:max-w-xl mx-auto">
+                <div>
+                    <img src="https://readymadeui.com/team-1.webp" class="w-32 h-32 rounded-full inline-block" />
+
+                    <div class="py-4">
+                        <h4 class="text-gray-800 text-base font-bold">John Doe</h4>
+                        <p class="text-gray-800 text-xs mt-1">Software Engineer</p>
+
+                        <div class="space-x-4 mt-4">
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                                    <path
+                                        d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                        data-original="#010002" />
+                                </svg>
+                            </button>
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                                    <path
+                                        d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                        data-original="#03a9f4" />
+                                </svg>
+                            </button>
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                        data-original="#0077b5" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://readymadeui.com/team-2.webp" class="w-32 h-32 rounded-full inline-block" />
+
+                    <div class="py-4">
+                        <h4 class="text-gray-800 text-base font-bold">Mark Adair</h4>
+                        <p class="text-gray-800 text-xs mt-1">Software Engineer</p>
+
+                        <div class="space-x-4 mt-4">
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                                    <path
+                                        d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                        data-original="#010002" />
+                                </svg>
+                            </button>
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                                    <path
+                                        d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                        data-original="#03a9f4" />
+                                </svg>
+                            </button>
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                        data-original="#0077b5" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://readymadeui.com/team-3.webp" class="w-32 h-32 rounded-full inline-block" />
+
+                    <div class="py-4">
+                        <h4 class="text-gray-800 text-base font-bold">Simon Konecki</h4>
+                        <p class="text-gray-800 text-xs mt-1">Web Designer</p>
+
+                        <div class="space-x-4 mt-4">
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                                    <path
+                                        d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                        data-original="#010002" />
+                                </svg>
+                            </button>
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                                    <path
+                                        d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                        data-original="#03a9f4" />
+                                </svg>
+                            </button>
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                        data-original="#0077b5" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://readymadeui.com/team-4.webp" class="w-32 h-32 rounded-full inline-block" />
+
+                    <div class="py-4">
+                        <h4 class="text-gray-800 text-base font-bold">Sophia</h4>
+                        <p class="text-gray-800 text-xs mt-1">Software Developer</p>
+
+                        <div class="space-x-4 mt-4">
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 155.139 155.139">
+                                    <path
+                                        d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                                        data-original="#010002" />
+                                </svg>
+                            </button>
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="#333" viewBox="0 0 512 512">
+                                    <path
+                                        d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                                        data-original="#03a9f4" />
+                                </svg>
+                            </button>
+                            <button type="button"
+                                class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none  bg-gray-100 hover:bg-gray-200">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14px" fill="#333" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                                        data-original="#0077b5" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                
+        </div>
+      <!-- end tes2 -->
+
    
 
 
@@ -597,11 +1106,24 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
             </div>
         </footer> -->
         <!-- end footer -->
+<<<<<<< HEAD
 
+=======
+     
+      
+  </main>
+
+<<<<<<< HEAD
+=======
+>>>>>>> 1e4d673bfd893c0b991b14d2eab52c71111992ed
         
 
   </main>
 
+<<<<<<< HEAD
+=======
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
+>>>>>>> 1e4d673bfd893c0b991b14d2eab52c71111992ed
   <?php 
 
     include 'view/layout/footer.php';
@@ -621,5 +1143,4 @@ Meningkatkan kualitas sumber daya manusia di bidang keilmuan, informatika dan Ko
   </script>
 
 </body>
-
 </html>
