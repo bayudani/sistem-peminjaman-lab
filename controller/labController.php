@@ -2,18 +2,21 @@
 require './config/koneksi.php';
 // require './model/userModel.php';
 require './model/labModel.php';
+// require './model/jadwalModel.php';
 
 
 class labController
 {
     // private $userModel;
     private $labModel;
+    // private $jadwalModel;
 
     public function __construct()
     {
         global $koneksi;
         // $this->userModel = new user($koneksi);
         $this->labModel = new lab($koneksi);
+        // $this->jadwalModel = new jadwal($koneksi);
     }
 
     public function getAllLaboran()
@@ -36,10 +39,15 @@ class labController
             }
         }
     }
-    public function getAllLab(){
+    public function getAllLab()
+    {
         return $this->labModel->getAllLab();
     }
-    public function getLabCount() {
+    public function getLabCount()
+    {
         return $this->labModel->countLab();
     }
+    
+
+    
 }

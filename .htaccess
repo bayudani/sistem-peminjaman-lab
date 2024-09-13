@@ -3,11 +3,6 @@
 
     # Aturan untuk detail artikel,program dan produk berdasarkan ID
     # RewriteRule ^detailartikel/([0-9]+)$ index.php?action=detailArtikel&id_artikel=$1 [QSA,L]
-    RewriteRule ^program/([0-9]+)/([a-zA-Z0-9_-]+)$ index.php?action=detail&id_program=$1 [QSA,L]
-    RewriteRule ^artikel/([0-9]+)/([a-zA-Z0-9_-]+)$ index.php?action=detailArtikel&id_artikel=$1 [QSA,L]
-    # RewriteRule ^transaksi/([0-9]+)/([a-zA-Z0-9_-]+)$ index.php?action=transaksi&id_produk=$1 [QSA,L]
-    # index.php?action=transaksi&id_produk=<?php echo $produks['id_produk']; ?>
-    # index.php?action=detailArtikel&id_artikel=<?php echo $artikels['id_artikel']; ?>
 
     # Aturan untuk menangani request ke halaman lainnya (login, register, dll.)
     RewriteRule ^login$ index.php?action=login [QSA,L]
@@ -15,6 +10,8 @@
     RewriteRule ^daftarlab$ index.php?action=daftarlab [QSA,L]
     RewriteRule ^lab$ index.php?action=lab [QSA,L]
     RewriteRule ^laboran$ index.php?action=laboran [QSA,L]
+    RewriteRule ^jadwal$ index.php?action=jadwal [QSA,L]
+    RewriteRule ^tambahLab$ index.php?action=tambahLab [QSA,L]
     RewriteRule ^admin$ index.php?action=admin [QSA,L]
     RewriteRule ^logout$ index.php?action=logout [QSA,L]
     # RewriteRule ^profile$ index.php?action=profile [QSA,L]

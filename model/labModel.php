@@ -10,11 +10,11 @@ class lab
         $this->koneksi = $db;
     }
 
-    public function addLab($name, $laboran_id,$id_lab,$deskripsi)
+    public function addLab($name, $laboran_id, $id_lab, $deskripsi)
     {
         $query = 'INSERT INTO ' . $this->table . '(nama_lab,id_laboran,id_lab,deskripsi) VALUES (?,?,?,?)';
         $stmt = $this->koneksi->prepare($query);
-        $stmt->bind_param('siis', $name, $laboran_id,$id_lab,$deskripsi);
+        $stmt->bind_param('siis', $name, $laboran_id, $id_lab, $deskripsi);
 
         if ($stmt->execute()) {
             return true;
@@ -29,7 +29,8 @@ class lab
         $result = mysqli_query($this->koneksi, $query);
         return $result;
     }
-    public function getAllLab() {
+    public function getAllLab()
+    {
         $query = "
             SELECT 
                 lab.nama_lab, 
@@ -47,15 +48,18 @@ class lab
         $result = mysqli_query($this->koneksi, $query);
         return $result;
     }
-    public function countLab() {
+
+    public function countLab()
+    {
         $query = "SELECT COUNT(*) AS total_lab FROM lab";
         $result = mysqli_query($this->koneksi, $query);
-        
+
         if ($result) {
             $row = mysqli_fetch_assoc($result); // Fetch the result as an associative array
             return $row['total_lab']; // Return the total user count
         }
         return 0; // Return 0 if query fails
     }
-    
+
+
 }
