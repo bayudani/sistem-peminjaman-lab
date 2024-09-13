@@ -25,12 +25,18 @@ switch ($action) {
         }
         include './view/register.php';
         break;
+<<<<<<< HEAD
+    case 'labtes':
+        // $controller->logout();
+        include './view/user/labtes.php';
+=======
     case 'registerLaboran':
         $controller = new UserController($koneksi);
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $controller->registerLaboran($_POST['nim'], $_POST['username'], $_POST['password'], $_POST['repeat_password']);
         }
         include './view/register.php';
+>>>>>>> 060b3d75e659c32274b8aa71649ec1f9601d055a
         break;
     case 'logout':
         session_destroy();

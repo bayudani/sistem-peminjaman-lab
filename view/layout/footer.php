@@ -9,10 +9,12 @@
 </head>
 <body>
     <!-- start testimonials 1-->
+
+    
 <footer class="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
             <div class="flex flex-col md:flex-row">
                 <div class="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-                <img src="src/images/logo.png" alt="Logo" class="w-40 h-20">
+                <img src="src/images/logo.png" alt="Logo" class="w-30 h-20">
                 <br>
                     <h3 class="font-bold text-2xl">Tim OP</h3>
                     <!-- <p class="text-gray-400">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy. -->
